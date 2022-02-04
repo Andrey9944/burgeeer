@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.header{
+  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.container{
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 862;
+}
+
+.text{
+  color: #FAF9F9;
+  flex: 0 0 580px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h1 span{
+  color: #FBB731;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.top{
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  line-height: 140%;
+  color: #DEDEDE;
+  margin-bottom: 42px;
+}
+
+a{
+  color: #1E2F40;
+  background: #FBB731;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.visual{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden
+}
+
+.bg{
+  width: 432px;
+  height: 862px;
+  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+} 
+
+.png{
+  width: 660px;
+  position: absolute;
+  right: -168px;
+}
+
+/*основвная часть*/
+
+.main{
+  width: 1615px;
+  height: 695px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E5E5E5;
+}
+
+.cap{    
+  display:inline-block;   
+  position:relative;
+  padding-left: 237px;
+}
+
+.cap div { 
+  display: inline-block; 
+  position: absolute; 
+  bottom: 10px; left: 10px; 
+  padding: 5px 5px 5px 10px;
+  color: white;
+  padding-left: 237px;
+}
+
+.sale{
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+display: inline-block;
+background:#F37335;
+border-radius: 14px;
+padding: 5px 18.23px;
+margin-left: 60px;
+}
+
+.tventy{
+  font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 76px;
+padding-left: 60px;
+  } 
+
+.tex{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+padding: 10px 5px 105px 60px;
+}
+
+.bacon{
+  display:inline-block;   
+  position:relative;
+  margin-right: 178px;
+}
+
+.bacon div{
+  display: inline-block; 
+  position: absolute; 
+  bottom: 10px; left: 10px; 
+  padding: 5px 5px 5px 10px;
+  color: white;
+}
+
+.free{
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 56px;
+top: calc(50% - 56px/2 - 68px);
+padding: 10px 5px 6px 6px;
+}
+
+.sas{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 10px 5px 22px 6px;
+}
+
+.sasi{
+  background: #FBB731;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px  28px;
+  margin-bottom: 105px;
+}
+
+
+
+  
+/*конец*/
+
+.footer{
+  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.cont{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 862;
+  }
+
+  .ul{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+    padding-top: 110px;
+  }
+
+  .pop{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 9px;
+    color: #DEDEDE;
+  }
+
+  .pip{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+    color: #FAF9F9;
+    margin-bottom: 9px;
+  }
+
+  .tel{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FBB731;
+    display: block;
+    margin-bottom: 2px;
+    padding-top: 111px;
+  }
+
+  .tel1{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 38px;
+      color: #FBB731;
+      margin-bottom: 2px;
+    }
+  
